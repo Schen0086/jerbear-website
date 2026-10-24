@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff1f5" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="A little question from Jerbear, made with love." />
+  <title>A Little Question from Jerbear 🧸💗</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Decorative shapes are hidden from screen readers. -->
+  <div class="decor decor-one" aria-hidden="true"></div>
+  <div class="decor decor-two" aria-hidden="true"></div>
+  <div class="floating-symbol symbol-one" aria-hidden="true">✦</div>
+  <div class="floating-symbol symbol-two" aria-hidden="true">♡</div>
+  <div class="floating-symbol symbol-three" aria-hidden="true">✧</div>
+
+  <main class="shell">
+    <section class="note-card" aria-label="Jerbear's special question">
+      <div class="card-top">
+        <span class="letter-seal">💌 a little love note</span>
+        <span class="card-heart" aria-hidden="true">♡</span>
+      </div>
+
+      <!-- The question is visible until Yes is clicked. -->
+      <div id="questionView" class="question-view">
+        <div class="bear-bubble">
+          <span class="sparkle sparkle-left" aria-hidden="true">✦</span>
+          <img class="bear-image" src="assets/jerbear.svg" alt="A smiling teddy bear holding a pink heart" />
+          <span class="sparkle sparkle-right" aria-hidden="true">✧</span>
+        </div>
+
+        <p class="eyebrow">from your Jerbear 🧸</p>
+        <h1>Will you be my <span>girlfriend?</span> 💗</h1>
+        <p id="responseMessage" class="response-message" aria-live="polite">
+          I have one very important question for my favourite person...
+        </p>
+
+        <div class="choices">
+          <button id="yesButton" class="yes-button" type="button">Yes! 💕</button>
+          <button id="noButton" class="no-button" type="button">No 🙈</button>
+        </div>
+        <p class="tiny-note">psst... Jerbear is rooting for a yes ♡</p>
+      </div>
+
+      <!-- The celebration replaces the question after Yes. -->
+      <div id="successView" class="success-view" hidden>
+        <div class="bear-bubble success-bear">
+          <img class="bear-image" src="assets/jerbear.svg" alt="Jerbear cuddling a heart" />
+        </div>
+        <p class="eyebrow">BEST. DAY. EVER. ✨</p>
+        <h2>You said <span>YES!</span> 💖</h2>
+        <p class="success-message">
+          You just made Jerbear the happiest bear in the whole world.
+          I can't wait to make more memories with you. 🥹💕
+        </p>
+        <p class="signature">All my hugs, your Jerbear 🧸</p>
+      </div>
+
+      <div class="card-bottom" aria-hidden="true">made with love & lots of butterflies · ♡</div>
+    </section>
+  </main>
+
+  <!-- Hearts are added here by JavaScript on celebration. -->
+  <div id="confetti" class="confetti-layer" aria-hidden="true"></div>
+</body>
+</html>

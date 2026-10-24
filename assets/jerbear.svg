@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 365" role="img" aria-labelledby="bearTitle">
+  <title id="bearTitle">Jerbear holding a big pink heart</title>
+  <!-- Soft teddy ears -->
+  <circle cx="94" cy="99" r="47" fill="#bf8469"/>
+  <circle cx="266" cy="99" r="47" fill="#bf8469"/>
+  <circle cx="94" cy="99" r="30" fill="#f4b9b9"/>
+  <circle cx="266" cy="99" r="30" fill="#f4b9b9"/>
+
+  <!-- Rounded body and feet -->
+  <ellipse cx="180" cy="254" rx="113" ry="98" fill="#cc9072"/>
+  <ellipse cx="180" cy="267" rx="77" ry="69" fill="#efc2a6"/>
+  <ellipse cx="106" cy="319" rx="47" ry="31" fill="#b97e64" transform="rotate(-21 106 319)"/>
+  <ellipse cx="254" cy="319" rx="47" ry="31" fill="#b97e64" transform="rotate(21 254 319)"/>
+  <ellipse cx="104" cy="321" rx="24" ry="16" fill="#eab1a8" transform="rotate(-21 104 321)"/>
+  <ellipse cx="256" cy="321" rx="24" ry="16" fill="#eab1a8" transform="rotate(21 256 321)"/>
+
+  <!-- Face -->
+  <circle cx="180" cy="147" r="104" fill="#dba282"/>
+  <ellipse cx="180" cy="196" rx="57" ry="43" fill="#f8dfc9"/>
+  <ellipse cx="145" cy="155" rx="8" ry="10" fill="#4a3534"/>
+  <ellipse cx="215" cy="155" rx="8" ry="10" fill="#4a3534"/>
+  <circle cx="148" cy="152" r="2.5" fill="white"/>
+  <circle cx="218" cy="152" r="2.5" fill="white"/>
+  <ellipse cx="116" cy="183" rx="21" ry="12" fill="#ed9b9b" opacity=".65"/>
+  <ellipse cx="244" cy="183" rx="21" ry="12" fill="#ed9b9b" opacity=".65"/>
+  <path d="M166 187 Q180 178 194 187 Q188 201 180 201 Q172 201 166 187Z" fill="#65433e"/>
+  <path d="M180 200 V209 M180 209 Q171 220 161 209 M180 209 Q189 220 199 209" fill="none" stroke="#65433e" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Oversized strawberry pink heart -->
+  <path d="M180 318 C159 299 106 267 106 232 C106 209 122 193 144 193 C163 193 176 205 180 214 C184 205 197 193 216 193 C238 193 254 209 254 232 C254 267 201 299 180 318Z" fill="#ea6f98" stroke="#d75182" stroke-width="5"/>
+  <path d="M137 215 Q123 229 134 244" fill="none" stroke="#ffd4e1" stroke-width="8" stroke-linecap="round" opacity=".78"/>
+  <path d="M214 287 Q229 273 235 258" fill="none" stroke="#ffd4e1" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+
+  <!-- Paws hug the heart -->
+  <ellipse cx="102" cy="242" rx="28" ry="41" fill="#d79c7e" transform="rotate(-28 102 242)"/>
+  <ellipse cx="258" cy="242" rx="28" ry="41" fill="#d79c7e" transform="rotate(28 258 242)"/>
+  <ellipse cx="110" cy="247" rx="15" ry="23" fill="#f2c3b0" transform="rotate(-28 110 247)"/>
+  <ellipse cx="250" cy="247" rx="15" ry="23" fill="#f2c3b0" transform="rotate(28 250 247)"/>
+
+  <!-- Little twinkles -->
+  <path d="M46 175 L51 185 L61 190 L51 195 L46 205 L41 195 L31 190 L41 185Z" fill="#f7b7c8"/>
+  <path d="M308 169 L312 177 L320 181 L312 185 L308 193 L304 185 L296 181 L304 177Z" fill="#f7b7c8"/>
+</svg>
