@@ -5,6 +5,7 @@ const responseMessage = document.getElementById('responseMessage');
 const questionView = document.getElementById('questionView');
 const successView = document.getElementById('successView');
 const confetti = document.getElementById('confetti');
+const officialDate = document.getElementById('officialDate');
 
 const sizes = [
   { width: 162, height: 58, font: 19 },
@@ -60,11 +61,27 @@ noButton.addEventListener('click', () => {
 yesButton.addEventListener('click', () => {
   if (accepted) return;
   accepted = true;
+
+  // Get the date she clicked Yes
+  const today = new Date();
+
+  const formattedDate = new Intl.DateTimeFormat('en-IE', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  }).format(today);
+
+  // Display the official relationship date
+  officialDate.textContent = `💕 Made official on ${formattedDate} 💕`;
+
+  // Show the celebration screen
   yesButton.classList.remove('takeover');
   questionView.hidden = true;
   successView.hidden = false;
+
   document.title = 'She said YES! 💖 | Jerbear';
   window.scrollTo({ top: 0, behavior: 'instant' });
+
   celebrate();
 });
 

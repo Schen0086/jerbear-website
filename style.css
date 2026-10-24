@@ -222,6 +222,24 @@ h1 span, h2 span { color: var(--rose-dark); font-style: italic; }
 @keyframes drift { 50% { translate: 0 -15px; rotate: 12deg; } }
 @keyframes bear-bounce { 50% { translate: 0 -8px; } }
 
+/* Official relationship date */
+.official-date {
+  display: inline-block;
+  margin: 10px auto 15px;
+  padding: 14px 24px;
+
+  background: #fff0f6;
+  border: 2px solid #f6c5d9;
+  border-radius: 20px;
+
+  color: #d74880;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1rem, 4vw, 1.3rem);
+  font-weight: bold;
+
+  box-shadow: 0 5px 15px rgba(234, 105, 152, 0.12);
+}
+
 /* 6. Small screens and motion accessibility */
 @media (max-width: 480px) {
   .shell { padding: 13px 10px; }
